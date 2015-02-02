@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/laetitia/Projects/Tech_talk/FAB/TranslationFab/cubic-bezier/src/main/res"/><source path="/home/laetitia/Projects/Tech_talk/FAB/TranslationFab/cubic-bezier/build/generated/res/rs/release"/><source path="/home/laetitia/Projects/Tech_talk/FAB/TranslationFab/cubic-bezier/build/generated/res/generated/release"/></dataSet><dataSet config="release"><source path="/home/laetitia/Projects/Tech_talk/FAB/TranslationFab/cubic-bezier/src/release/res"/></dataSet><mergedItems/></merger>

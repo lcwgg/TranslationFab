@@ -78,11 +78,13 @@ public class MainActivity extends Activity {
             if (v.getId() == R.id.fab_button) {
 
                 final AnimatorSet set = new AnimatorSet();
-                final ObjectAnimator slide = ObjectAnimator.ofFloat(v, View.TRANSLATION_X, 0, -570);
+                // arbitrary numbers for nexus 5
+                final ObjectAnimator slide = ObjectAnimator.ofFloat(v, View.TRANSLATION_X, 0, -770);
                 slide.setDuration(1000);
                 slide.setInterpolator(new CubicBezierInterpolator(1, 1, 1, 1));
 
-                final ObjectAnimator slide2 = ObjectAnimator.ofFloat(v, View.TRANSLATION_Y, 0, -930);
+                // arbitrary numbers for nexus 5
+                final ObjectAnimator slide2 = ObjectAnimator.ofFloat(v, View.TRANSLATION_Y, 0, -1400);
                 slide2.setDuration(1000);
                 slide2.setInterpolator(new CubicBezierInterpolator(.1, .7, .5, 1));
 
